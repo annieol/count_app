@@ -21,11 +21,13 @@ let dogCount = 0
 
 function increment() {
     dogCount += +1
-    countEl.innerText = dogCount
+    countEl.textContent = dogCount
     console.log(dogCount)
 }
 
 function save() {
+    let previousEntries = dogCount + " - "
+    saveEl.textContent += previousEntries
     console.log(dogCount)
 
 }
