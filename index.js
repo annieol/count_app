@@ -12,17 +12,21 @@ lapIncrement()
 
 console.log(lapsCompleted) */
 
+let saveEl = document.getElementById("save-el")
+
 let countEl = document.getElementById("dog-count")
 console.log(countEl)
 
 let dogCount = 0
 
 function increment() {
-    dogCount = dogCount +1
+    dogCount += +1
     countEl.innerText = dogCount
     console.log(dogCount)
 }
 
 function save() {
     console.log(dogCount)
+
 }
+
