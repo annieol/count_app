@@ -34,9 +34,10 @@ h1, button, p {
     font-size: 28px;
 }
 
-#increment-btn {
+#increment-btn, #save-btn {
     box-shadow: none;
     border-style: solid;
     border-color: black;
     border-radius: 5px;
+    margin: 5px;
 }

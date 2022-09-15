@@ -23,3 +23,6 @@ function increment() {
     console.log(dogCount)
 }
 
+function save() {
+    console.log(dogCount)
+}
